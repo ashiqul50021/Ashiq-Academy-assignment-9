@@ -1,0 +1,23 @@
+[
+    {
+        "id":"1",
+       "studentname":"Andrew Bootman",
+       "img":"https://st2.depositphotos.com/2783505/8415/i/600/depositphotos_84158918-stock-photo-passport-picture-of-a-hispanic.jpg",
+       "description":"If your positive feedback is vague, they won't know which of their skills are good and which ones they need to improve. Tell them specifically what they've been doing well and what you liked about it"       
+    },
+    {
+        "id":"2",
+       "studentname":"Morin N charles",
+       "img":"https://static6.depositphotos.com/1105174/600/i/950/depositphotos_6005219-stock-photo-passport.jpg",
+       "description":"If you notice they're doing something well, say something right away. If you wait too long, they may decide to do the project in a different way."
+      
+    },
+    {
+        "id":"3",
+       "studentname":"Steven root",
+       "img":"https://st2.depositphotos.com/2783505/8278/i/600/depositphotos_82784040-stock-photo-passport-picture-of-a-cool.jpg",
+       "description":"You can give positive feedback in many ways, whether that be verbal, over email or in your company's instant messenger. By writing it somewhere everyone can see"
+      
+    }
+   
+]
