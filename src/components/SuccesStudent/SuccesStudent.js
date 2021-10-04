@@ -13,9 +13,9 @@ const SuccesStudent = () => {
     }, []);
 
     return (
-        <div className="container text-center">
-        <h3 className="text-center mb-3 mt-4">OUR SUCCESSFUL STUDENTS</h3>
-        <hr />
+        <div className="container text-center mt-5">
+        <h3 className="text-center mb-5 mt-5">OUR SUCCESSFUL STUDENTS</h3>
+        
         <div className="row row-cols-1 row-cols-md-3 g-4">
         {
             student.map(student => <ManageStudent

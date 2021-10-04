@@ -5,5 +5,6 @@ This project is a Elearning educational website [see more](https://vibrant-heise
 ## Available Service
 
 In the project we serve more service :
-
+graphics design
+web design
 

@@ -6,7 +6,7 @@ const ManageService = (props) => {
    
     return (
         <div class="col">
-            <div class="card h-100">
+            <div class="card h-100  shadow p-3 mb-5 bg-body rounded">
                 <img src={img} class="card-img-top" alt="..." height="200px" />
                 <div class="card-body">
                     <h5 class="card-title">{coursename}</h5>

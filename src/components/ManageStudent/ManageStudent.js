@@ -5,7 +5,7 @@ const ManageStudent = (props) => {
     const {studentname, img, description} = props.students;
     return (
         <div class="col">
-        <div class="card h-100">
+        <div class="card h-100 shadow p-3 mb-5 bg-body rounded">
           <div className="">
           <div>
            <img src={img} class="card-img-top rounded-circle w-25" alt="..." height="90px" />

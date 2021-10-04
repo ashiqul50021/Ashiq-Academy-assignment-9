@@ -17,7 +17,7 @@ const url = `./courses.json`;
     return (
         <div>
        
-        <div className="container mb-5">
+        <div className="container mb-5 mt-5">
             <h3 className="text-center mb-5">OUR SERVICES</h3>
             <div className="row row-cols-1 row-cols-md-4 g-4">
         {

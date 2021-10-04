@@ -3,14 +3,14 @@ import { Link } from 'react-router-dom';
 
 const Pricing = () => {
     return (
-        <div>
-            <div className="container">
+        <div className="mt-5">
+            <div className="container mt-5">
                 <h2 className="text-center mt-5 mb-5">MEMBERSHIP PRICING</h2>
                 <div className="row">
                     <div className="col-md-4">
                         <div className="row row-cols-1 g-4">
                             <div class="col">
-                                <div class="card h-100">
+                                <div class="card h-100 shadow p-3 mb-5 bg-body rounded">
                                     
                                     <div class="card-body text-center">
                                         <h3>Student Plan</h3>
@@ -33,7 +33,7 @@ const Pricing = () => {
                     <div className="col-md-4">
                     <div className="row row-cols-1 g-4">
                             <div class="col">
-                                <div class="card h-100">
+                                <div class="card h-100 shadow p-3 mb-5 bg-body rounded">
                                     
                                     <div class="card-body text-center">
                                         <h3>Business Plan</h3>
@@ -56,7 +56,7 @@ const Pricing = () => {
                     <div className="col-md-4">
                     <div className="row row-cols-1 g-4">
                             <div class="col">
-                                <div class="card h-100">
+                                <div class="card h-100 shadow p-3 mb-5 bg-body rounded">
                                     
                                     <div class="card-body text-center">
                                        

@@ -9,7 +9,7 @@ const Header = () => {
     };
     return (
         <div>
-            <nav className="navbar navbar-expand-lg navbar-light bg-light shadow p-3 mb-5 bg-body rounded">
+            <nav className="navbar navbar-expand-lg navbar-light bg-light shadow p-3  bg-body rounded ">
             <div className="container d-flex justify-content-between">
                 <div>
                 <NavLink className="navbar-brand" to="/">
