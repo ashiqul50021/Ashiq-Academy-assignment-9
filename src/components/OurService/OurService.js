@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import ManageService from '../ManageService/ManageService';
 import ourserimg from '../../image/servicebg.png'
+import { Link } from 'react-router-dom';
 
 const OurService = () => {
     let OurServiceStyles = {
@@ -32,9 +33,9 @@ const OurService = () => {
             <div className="container text-center">
             <h3 className="text-center mb-4 mt-4">OUR SERVICES</h3>
      
-            <div className="row row-cols-1 row-cols-md-3 g-4 ">
+            <div className="row row-cols-1 row-cols-md-4 g-4 ">
             {
-                courses.slice(0,3).map(courses => <ManageService 
+                courses.slice(0,4).map(courses => <ManageService 
                     key={courses.key}
 
                     course={courses}>
@@ -42,7 +43,7 @@ const OurService = () => {
                     </ManageService>)
             }
            <div style={{ margin:'20px auto'}}>
-           <a class="btn btn-primary" href="/services" role="button">More Courses</a>
+           <Link class="btn btn-primary" to="/services" role="button">More Courses</Link>
            </div>
 
 
